@@ -1,5 +1,6 @@
-<html><center>Project 2: Analysing network vulnerabilities with Python  
-Cybersecurity Bootcamp</center>
+          Analysing network vulnerabilities with Python  
+          Cybersecurity Bootcamp
+
 Scenario:  
 You have been learning the building blocks of Python programming language and now it is time 
 to apply those skills. You will be implementing and using techniques to solve a real-world 
@@ -8,13 +9,14 @@ the field.
 You have been hired by an organization as a security professional and your first task is to 
 analyze a network for vulnerabilities. There are many different servers on a network, running 
 various services, to support day-to-day business operations. You have been asked to gather 
-information about the possible vulnerabilities on any specific server. 
+information about the possible vulnerabilities on any specific server.
+
 Assignment:  
 Your task is to write a Python program that will test a given host and generate a list of all the 
 TCP open ports within the range of 1 to 1025. You are required to accomplish this task by using 
 the standard Python’s “socket” library. 
 Below are the functional requirements in order to successfully pass the project.  
-Grading:  
+
 On execution of the program your code should prompt “Enter a host to scan”. The user will provide a 
 host name or IP address. 
 1. Your code should look for all of the open TCP ports between the range of 1 to 1025. 
@@ -24,4 +26,3 @@ or due to any other error, you need to write the exception into the output file.
 4. You also need to record the starting and ending date and time at the beginning and 
 ending of the scan and write that information to the output file. You should also show 
 the total time it took to scan the ports.
-</html>
